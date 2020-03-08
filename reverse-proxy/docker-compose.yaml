@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  # REVERSE PROXY EXAMPLE
+  node-server:
+    image: mxie/node-server
+
+  nginx-proxy:
+    container_name: nginx-proxy
+    depends_on:
+       - node-server
+    image: nginx:latest
+    ports:
+      - 443:443
+    volumes:
+      - ./etc/nginx:/etc/nginx

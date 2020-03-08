@@ -1,0 +1,13 @@
+{
+  "name": "docker_node_server",
+  "version": "1.0.0",
+  "description": "Node.js Server on Docker",
+  "author": "Ming Xie <git@mxie.dev>",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

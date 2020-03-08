@@ -1,3 +1,4 @@
 reverse-proxy/etc/nginx/*.pem
 reverse-proxy/etc/nginx/*.crt
 reverse-proxy/etc/nginx/*.key
+reverse-proxy/etc/nginx/*.info
